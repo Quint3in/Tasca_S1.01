@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Smartphone asd = new Smartphone();
-        asd.setBrand("Samsung");
-        asd.setModel("A10");
+        Smartphone asd = new Smartphone("Samsung","A10");
         asd.call(23);
         asd.ringAlarm();
         asd.takePhoto();
