@@ -1,8 +1,7 @@
 public interface Camera {
 
-    private void takePhoto(){
+    default void takePhoto(){
         System.out.println("Fent una foto.");
     }
-
 
 }
