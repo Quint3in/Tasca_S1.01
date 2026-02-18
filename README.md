@@ -1,6 +1,6 @@
 # Tasca S1.01
 
-## Exercici 1
+## Nivell 1 Exercici 1
 **Descripció**: Assimilar els conceptes d'herència, polimorfisme, 
 càrrega de classes i blocs estàtics.
 
@@ -26,7 +26,7 @@ Quan s’executa?
 Quina diferència hi ha entre aquest i un bloc static?  
 ***Que l'estàtic s'executa en carregar en memória la classe.***
 
-## Exercici 2
+## Nivell 1 Exercici 2
 
 **Descripció**: Entendre la diferència entre static i final en mètodes i
 atributs, també diferència entre mètodes estàtics i no estàtics.
