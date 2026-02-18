@@ -12,4 +12,6 @@ public abstract class Article {
     }
 
     abstract double calculateArticlePrice();
+
+    abstract int calculateArticleScore();
 }

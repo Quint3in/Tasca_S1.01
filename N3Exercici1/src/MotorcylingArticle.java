@@ -1,5 +1,6 @@
 public class MotorcylingArticle extends Article{
     final double BASE_PRICE = 100;
+    final int BASE_SCORE = 3;
 
     private String team;
 
@@ -13,8 +14,19 @@ public class MotorcylingArticle extends Article{
 
         if (team.equalsIgnoreCase("Honda") ||
             team.equalsIgnoreCase("Yamaha")) {
-            finalPrice=+50;
+            finalPrice+=50;
         }
         return finalPrice;
+    }
+
+    @Override
+    int calculateArticleScore() {
+        int finalScore = BASE_SCORE;
+
+        if (team.equalsIgnoreCase("Honda") ||
+                team.equalsIgnoreCase("Yamaha")) {
+            finalScore+=3;
+        }
+        return finalScore;
     }
 }
