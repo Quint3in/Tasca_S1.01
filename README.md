@@ -28,6 +28,11 @@ Quina diferència hi ha entre aquest i un bloc static?
 
 ## Exercici 2
 
+**Descripció**: Entendre la diferència entre static i final en mètodes i
+atributs, també diferència entre mètodes estàtics i no estàtics.
+
+### 📌 Has de crear una classe que representi un cotxe amb algunes particularitats que et permetran entendre com funciona la memòria i la inicialització en Java.
+
 ## 🛠 Tecnologies
 - Backend: Java
 
