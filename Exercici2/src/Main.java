@@ -3,7 +3,8 @@ public class Main {
     Car asd = new Car(125);
     Car asd2 = new Car(150);
     Car.model = "gt86";
-    System.out.println(Car.model);
-    System.out.println(Car.brand);
+
+    Car.brake();
+    asd.accelerate();
   }
 }

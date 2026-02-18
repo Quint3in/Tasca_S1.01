@@ -8,10 +8,10 @@ public class Car {
         this.power = power;
     }
 
-    static void brake() {
+    public static void brake() {
         System.out.println("El vehicle està frenant.");
     }
-    private void accelerate() {
+    public void accelerate() {
         System.out.println("El vehicle està accelerant.");
     }
 }
