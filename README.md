@@ -56,5 +56,5 @@ gestió d'objeces entre si, estructures de dades i un menú interactiu per conso
 - Backend: Java
 
 ## 🚀 Instal·lació i Execució
-1. Clonar el repositori: `git clone ...`
+1. Clonar el repositori: `git clone https://github.com/Quint3in/Tasca_S1.01.git`
 2. Execució de l'aplicació.
