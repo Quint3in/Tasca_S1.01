@@ -8,6 +8,10 @@ public class Car {
         this.power = power;
     }
 
+    public double getPower() {
+        return power;
+    }
+
     public static void brake() {
         System.out.println("El vehicle està frenant.");
     }
