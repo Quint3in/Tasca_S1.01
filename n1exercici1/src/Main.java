@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Instrument.price);
         PercussionInstrument drum = new PercussionInstrument("drum1");
         StringInstrument violin = new StringInstrument("violin1");
         WindInstrument flute = new WindInstrument("flute1");

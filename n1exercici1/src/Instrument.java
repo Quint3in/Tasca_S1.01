@@ -1,7 +1,7 @@
 public abstract class Instrument {
 
-    String name;
-    static double price = 50;
+    private String name;
+    private double price;
 
     public Instrument(String name) {
         this.name = name;
@@ -30,6 +30,6 @@ public abstract class Instrument {
         System.out.println("Clase instanciada");
     }
 
-    abstract void play();
+    public abstract void play();
 
 }
